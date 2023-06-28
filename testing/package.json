@@ -1,0 +1,20 @@
+{
+  "name": "cas-fee-testing-excercises",
+  "version": "0.0.0-development",
+  "private": true,
+  "description": "Complementary excercises to the lecture in the CAS FEE OST.",
+  "type": "commonjs",
+  "scripts": {
+    "test": "ava",
+    "test:watch": "ava -w"
+  },
+  "author": "Christoph Bühler <christoph@smartive.ch>",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "ava": "^5.3.0",
+    "ts-mockito": "^2.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
